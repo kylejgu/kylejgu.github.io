@@ -1,6 +1,18 @@
 +++
-title = ""
+title = "test post"
 description = ""
 tags = []
 categories = []
 +++
+
+```{r}
+print(quakes)
+```
+
+```{python}
+2+2
+```
+
+
+![](/post/2020-12-02-test-post_files/untitled.png)
+
