@@ -1,0 +1,18 @@
++++
+title = "Greetings homie"
+description = "Welcome to the inner machinations of my mind"
+tags = []
+categories = []
++++
+
+[Link to project 1](/projects/project1/)
+
+[Link to google](https://www.google.com)
+
+```{r}
+head(quakes)
+```
+
+```{python}
+print(7+14)
+```

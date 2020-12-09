@@ -14,5 +14,5 @@ print(quakes)
 ```
 
 
-![](/post/2020-12-02-test-post_files/untitled.png)
+
 
