@@ -3,6 +3,7 @@ categories: []
 description: ""
 tags: []
 title: "Blog: Reticulate"
+date: 2020-12-11
 ---
 
 Enjoy this random diagram of the molecular workings within the kidney!
