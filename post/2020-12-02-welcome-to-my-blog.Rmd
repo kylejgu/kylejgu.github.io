@@ -13,6 +13,18 @@ categories = []
 head(quakes)
 ```
 
+
 ```{python}
-print(7+14)
+import pandas as pd
+import numpy as np
+
+quakes=pd.read_csv("https://vincentarelbundock.github.io/Rdatasets/csv/datasets/quakes.csv",index_col=0)
+print(quakes.head())
+
+print(quakes.mag.agg(['min','max','mean','median'])) #summary stats for magnitude
+print(quakes.depth.agg(['min','max','mean','median'])) #summary stats for depth
 ```
+
+
+
+
