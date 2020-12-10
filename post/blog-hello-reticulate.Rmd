@@ -1,0 +1,25 @@
+---
+categories: []
+description: ""
+tags: []
+title: "Blog: Reticulate"
+---
+
+Enjoy this random diagram of the molecular workings within the kidney!
+![](/post/blog-hello-reticulate_files/untitled.png)
+
+
+
+R Code:
+
+```{r}
+library(reticulate)
+head(mtcars)
+```
+Python:
+
+```{python}
+print(8+8)
+
+```
+

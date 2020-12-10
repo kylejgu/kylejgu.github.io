@@ -1,0 +1,24 @@
+---
+title: Reticulate
+author: ''
+date: '2020-12-11'
+slug: reticulate
+categories: []
+tags: []
+description: ''
+---
+
+```{r}
+2 + 3
+
+head(mtcars)
+```
+
+```{python}
+print(8**2)
+
+```
+
+
+
+
