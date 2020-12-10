@@ -1,5 +1,5 @@
 +++
-title = "Greetings homie"
+title = "Blog: Reticulate"
 description = "Welcome to the inner machinations of my mind"
 tags = []
 categories = []
