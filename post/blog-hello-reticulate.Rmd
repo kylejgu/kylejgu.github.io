@@ -6,7 +6,7 @@ title: "Reticulate: The Bridge between Python and R"
 date: 2020-12-11
 ---
 
-What's good, my friend! Before I dive into coding, I wanted to share this avant-garde piano designed by the late NBA legend Kobe Bryant.
+What's poppin! Before I dive into coding, I wanted to share this avant-garde piano designed by the late NBA legend Kobe Bryant.
 ![](/post/blog-hello-reticulate_files/kobe piano.jpg)
 As an avid basketball fan and pianist, this creation stands out to me because it represents the intersectionality of two of my favorite hobbies. Whether you're perfecting your craft as an athlete, computer scientist, surgeon, or whatever, you shouldn't confine your potential to one field because there are countless artforms to draw inspiration from. Let the world be your library.
 
