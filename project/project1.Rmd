@@ -1,7 +1,7 @@
 ---
 title: "Project 1: Exploratory Data Analysis"
 author: "Kyle Gu"
-date: "10/8/2020"
+date: 2020-10-18
 output: html_document
 ---
 
