@@ -24,7 +24,6 @@ print(quakes.head())
 
 print(quakes.mag.agg(['min','max','mean','median']))
 print(quakes.depth.agg(['min','max','mean','median']))
-
 ```
 
 Now, reticulate will be imported and utilized to facilitate communication between R and Python code. 
@@ -39,7 +38,6 @@ patrick <- "The inner machinations of my mind"
 Python:
 
 ```{python}
-import pandas as pd
 star = "are an enigma."
 
 print(r.patrick, star)
