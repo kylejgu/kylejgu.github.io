@@ -5,23 +5,33 @@
     <link>/</link>
     <description>Recent content on Kyle Gu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Project 1: Exploratory Data Analysis</title>
-      <link>/project/project1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Reticulate: The Bridge between Python and R</title>
+      <link>/post/2020/12/11/reticulate-the-bridge-between-python-and-r/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/project/project1/</guid>
-      <description>library(tidyverse) library(&amp;quot;kableExtra&amp;quot;) nba_allstar &amp;lt;- read.csv(&amp;quot;https://drive.google.com/uc?export=download&amp;amp;id=1adb3W6h8KQRkLQ_X4Z39cG-zQtnuEiDy&amp;quot;) nba_attendance &amp;lt;- read.csv(&amp;quot;https://drive.google.com/uc?export=download&amp;amp;id=1ko3v_rGutSHIhPC_yXoSNOMkR7EaAEBg&amp;quot;) Introduction I selected two datasets from data.world: one for NBA All-Star player selections and another for NBA game attendance. The nba_allstar dataset contains the variables: year, player, player metrics (position, height, weight), team, conference, draft status, and nationalty. The nba_attendance dataset contains the variables: year, rank, team, and a variety of attendance variables for home and away games. All data were derived from the NBA&#39;s official records and basketball-reference.</description>
+      <guid>/post/2020/12/11/reticulate-the-bridge-between-python-and-r/</guid>
+      <description>What&#39;s good, my friend! Before I dive into coding, I wanted to share this avant-garde piano designed by the late NBA legend Kobe Bryant. As an avid basketball fan and pianist, this creation stands out to me because it represents the intersectionality of two of my favorite hobbies. Whether you&#39;re perfecting your craft as an athlete, computer scientist, surgeon, or whatever, you shouldn&#39;t confine your potential to one field because there are countless artforms to draw inspiration from.</description>
     </item>
     
     <item>
       <title>Project 2: Modeling, Testing, and Predicting</title>
       <link>/project/project2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/project/project2/</guid>
       <description>0. Introduction ratings &amp;lt;- read.csv(&amp;quot;https://drive.google.com/uc?export=download&amp;amp;id=1k17J28AB-iPGyn3cFtbEU39r1MiPTPxJ&amp;quot;) The ratings dataset contains professor characteristics, course details, and evaluation scores for 463 courses taught during the 2000-2002 academic years at the University of Texas at Austin. There are 463 observations total, one for each course. The main variables that will be analyzed are: the age and gender of the professors, minority status (Caucasian or not), beauty (rating of professor&#39;s physical appearance averaged across 6 student panelists, mean-centered), native English speaker status (yes or no), division (upper or lower division course), tenure (whether or not the instructor is on tenure track), allstudents (number of students enrolled in the course), and course teaching evaluation score on a scale of 1 (very unsatisfactory) to 5 (excellent).</description>
+    </item>
+    
+    <item>
+      <title>Project 1: Exploratory Data Analysis</title>
+      <link>/project/project1/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/project1/</guid>
+      <description>library(tidyverse) library(&amp;quot;kableExtra&amp;quot;) nba_allstar &amp;lt;- read.csv(&amp;quot;https://drive.google.com/uc?export=download&amp;amp;id=1adb3W6h8KQRkLQ_X4Z39cG-zQtnuEiDy&amp;quot;) nba_attendance &amp;lt;- read.csv(&amp;quot;https://drive.google.com/uc?export=download&amp;amp;id=1ko3v_rGutSHIhPC_yXoSNOMkR7EaAEBg&amp;quot;) Introduction I selected two datasets from data.world: one for NBA All-Star player selections and another for NBA game attendance. The nba_allstar dataset contains the variables: year, player, player metrics (position, height, weight), team, conference, draft status, and nationalty. The nba_attendance dataset contains the variables: year, rank, team, and a variety of attendance variables for home and away games. All data were derived from the NBA&#39;s official records and basketball-reference.</description>
     </item>
     
     <item>

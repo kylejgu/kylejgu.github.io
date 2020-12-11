@@ -2,16 +2,32 @@
 categories: []
 description: ""
 tags: []
-title: "Blog: Reticulate"
+title: "Reticulate: The Bridge between Python and R"
 date: 2020-12-11
 ---
 
-The reticulate package introduces an R interface that enables users to access and incorporate Python classes, functions, and modules. In this blog, I will explore some basic communication between R and python using reticulate.
-
-But before that, I wanted to share this avant-garde piano designed by the late NBA legend Kobe Bryant.
+What's good, my friend! Before I dive into coding, I wanted to share this avant-garde piano designed by the late NBA legend Kobe Bryant.
 ![](/post/blog-hello-reticulate_files/kobe piano.jpg)
 As an avid basketball fan and pianist, this creation stands out to me because it represents the intersectionality of two of my favorite hobbies. Whether you're perfecting your craft as an athlete, computer scientist, surgeon, or whatever, you shouldn't confine your potential to one field because there are countless artforms to draw inspiration from. Let the world be your library.
 
+##Reticulate:
+
+The reticulate package introduces an R interface that enables users to access and incorporate Python classes, functions, and modules. In this blog, I will explore cross-communication between Python and R using reticulate.
+
+First off, the following chunk shows some basic summary statistics (min, max, mean, median) of an earthquake dataset from Python.
+
+```{python}
+import numpy as np
+import pandas as pd
+quakes=pd.read_csv("https://vincentarelbundock.github.io/Rdatasets/csv/datasets/quakes.csv",index_col=0)
+print(quakes.head())
+
+print(quakes.mag.agg(['min','max','mean','median']))
+print(quakes.depth.agg(['min','max','mean','median']))
+
+```
+
+Now, reticulate will be imported and utilized to facilitate communication between R and Python code. 
 
 R Code:
 
@@ -23,7 +39,6 @@ patrick <- "The inner machinations of my mind"
 Python:
 
 ```{python}
-import numpy as np
 import pandas as pd
 star = "are an enigma."
 

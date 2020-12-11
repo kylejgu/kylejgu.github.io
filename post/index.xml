@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Chris Turner</title>
+    <title>Posts on Kyle Gu</title>
     <link>/post/</link>
-    <description>Recent content in Posts on Chris Turner</description>
+    <description>Recent content in Posts on Kyle Gu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015/07/23/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Reticulate: The Bridge between Python and R</title>
+      <link>/post/2020/12/11/reticulate-the-bridge-between-python-and-r/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015/07/23/hello-r-markdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/post/2020/12/11/reticulate-the-bridge-between-python-and-r/</guid>
+      <description>What&#39;s good, my friend! Before I dive into coding, I wanted to share this avant-garde piano designed by the late NBA legend Kobe Bryant. As an avid basketball fan and pianist, this creation stands out to me because it represents the intersectionality of two of my favorite hobbies. Whether you&#39;re perfecting your craft as an athlete, computer scientist, surgeon, or whatever, you shouldn&#39;t confine your potential to one field because there are countless artforms to draw inspiration from.</description>
     </item>
     
   </channel>

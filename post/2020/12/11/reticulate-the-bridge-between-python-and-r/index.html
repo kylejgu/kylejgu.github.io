@@ -7,7 +7,7 @@
     <meta name="author" content="Kyle Gu" />
     
     <link rel="shortcut icon" type="image/x-icon" href="../../../../../img/favicon.ico">
-    <title>Blog: Reticulate</title>
+    <title>Reticulate: The Bridge between Python and R</title>
     <meta name="generator" content="Hugo 0.79.0" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../../../../../css/main.css" />
@@ -54,7 +54,7 @@
       <div class="container">
         <div class="blog-post">
           <h3>
-            <strong><a href="../../../../../post/2020/12/11/blog-reticulate/">Blog: Reticulate</a></strong>
+            <strong><a href="../../../../../post/2020/12/11/reticulate-the-bridge-between-python-and-r/">Reticulate: The Bridge between Python and R</a></strong>
           </h3>
         </div>
  
@@ -72,10 +72,11 @@
               
 
 
-<p>Hello! I wanted to share this avant-garde piano designed by the late NBA legend Kobe Bryant. <img src="../../../../../post/blog-hello-reticulate_files/kobe%20piano.jpg" /> As an avid basketball fan and pianist, this creation stands out to me because it represents the intersectionality of two of my favorite hobbies. Whether you're perfecting your craft as an athlete, computer scientist, surgeon, or whatever, you shouldn't confine your potential to one field because there are countless artforms to draw inspiration from. Let the world be your library.</p>
-<p>Reticulate:</p>
+<p>What's good, my friend! Before I dive into coding, I wanted to share this avant-garde piano designed by the late NBA legend Kobe Bryant. <img src="../../../../../post/blog-hello-reticulate_files/kobe%20piano.jpg" /> As an avid basketball fan and pianist, this creation stands out to me because it represents the intersectionality of two of my favorite hobbies. Whether you're perfecting your craft as an athlete, computer scientist, surgeon, or whatever, you shouldn't confine your potential to one field because there are countless artforms to draw inspiration from. Let the world be your library.</p>
+<div id="reticulate" class="section level2">
+<h2>Reticulate:</h2>
 <p>The reticulate package introduces an R interface that enables users to access and incorporate Python classes, functions, and modules. In this blog, I will explore cross-communication between Python and R using reticulate.</p>
-<p>The following chunk shows some basic summary statistics of an earthquake dataset from Python.</p>
+<p>First off, the following chunk shows some basic summary statistics (min, max, mean, median) of an earthquake dataset from Python.</p>
 <pre class="python"><code>import numpy as np
 import pandas as pd
 quakes=pd.read_csv(&quot;https://vincentarelbundock.github.io/Rdatasets/csv/datasets/quakes.csv&quot;,index_col=0)
@@ -98,6 +99,7 @@ print(quakes.head())</code></pre>
 ## mean      311.371
 ## median    247.000
 ## Name: depth, dtype: float64</code></pre>
+<p>Now, reticulate will be imported and utilized to facilitate communication between R and Python code.</p>
 <p>R Code:</p>
 <pre class="r"><code>library(reticulate)
 patrick &lt;- &quot;The inner machinations of my mind&quot;</code></pre>
@@ -107,6 +109,7 @@ star = &quot;are an enigma.&quot;
 
 print(r.patrick, star)</code></pre>
 <pre><code>## The inner machinations of my mind are an enigma.</code></pre>
+</div>
 
             
         <hr>         <div class="related-posts">
